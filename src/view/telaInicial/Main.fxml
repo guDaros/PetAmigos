@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.telaInicial.ControllerMain">
+   <children>
+      <Button layoutX="14.0" layoutY="239.0" mnemonicParsing="false" onAction="#btnCClientes" text="Cadastrar Cliente" />
+      <Button layoutX="329.0" layoutY="335.0" mnemonicParsing="false" onAction="#btnSair" text="Fechar" />
+      <Label layoutX="297.0" layoutY="373.0" text="Pet Amgios v.Alpha">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="21.0" text="Bem Vindo!">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="101.0" text="Comece o seu gerenciamento,">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnCFuncionario" text="Cadastrar Funcionario" />
+      <Button layoutX="14.0" layoutY="280.0" mnemonicParsing="false" onAction="#btnCProduto" text="Cadastrar Produto" />
+      <Button layoutX="14.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnCVenda" text="Criar Venda" />
+      <Label layoutX="278.0" layoutY="101.0" text="user">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="162.0" mnemonicParsing="false" onAction="#btnServico" text="Serviço" />
+   </children>
+</Pane>

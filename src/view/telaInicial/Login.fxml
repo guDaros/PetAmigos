@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="326.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.telaInicial.ControllerLogin">
+   <children>
+      <Label layoutX="10.0" layoutY="47.0" text="Bem Vindo ao PetShop">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="147.0" text="Login:" />
+      <Label layoutX="37.0" layoutY="190.0" text="Senha:" />
+      <TextField fx:id="textFieldLogin" layoutX="89.0" layoutY="142.0" text="Admin" />
+      <PasswordField fx:id="textFieldSenha" layoutX="89.0" layoutY="185.0" text="123" />
+      <Button layoutX="89.0" layoutY="239.0" mnemonicParsing="false" onAction="#btnEntrar" text="Entrar" />
+      <Button layoutX="189.0" layoutY="239.0" mnemonicParsing="false" onAction="#btnEsqueci" text="Fechar" />
+   </children>
+</Pane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.funcionario.ControllerListarFuncionario">
+   <center>
+      <TextArea fx:id="TextAreaList" prefHeight="355.0" prefWidth="876.0" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <items>
+            <Button mnemonicParsing="false" onAction="#btnCriar" text="Criar/Editar" />
+            <TextField fx:id="TextFieldID" prefHeight="31.0" prefWidth="38.0" promptText="00" />
+            <Button mnemonicParsing="false" onAction="#btnExcluir" text="Excluir" />
+            <Button mnemonicParsing="false" onAction="#btnVoltar" text="Voltar" />
+         </items>
+      </ToolBar>
+   </top>
+</BorderPane>

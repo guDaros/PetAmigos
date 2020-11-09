@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="348.0" prefWidth="399.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.funcionario.ControllerFuncionario">
+   <children>
+      <Button layoutX="11.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnCriar" prefHeight="31.0" prefWidth="81.0" text="Criar" />
+      <Button layoutX="332.0" layoutY="305.0" mnemonicParsing="false" onAction="#btnSair" text="Sair" />
+      <Label layoutX="11.0" layoutY="102.0" text="Nome:" />
+      <TextField fx:id="TextFieldNome" layoutX="66.0" layoutY="97.0" prefHeight="31.0" prefWidth="262.0" promptText="Nome" />
+      <Label layoutX="11.0" layoutY="147.0" text="Senha:" />
+      <Button layoutX="248.0" layoutY="305.0" mnemonicParsing="false" onAction="#btnVoltar" text="Voltar" />
+      <Label layoutX="102.0" layoutY="36.0" text="Cadastro de Produto">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="11.0" layoutY="305.0" mnemonicParsing="false" onAction="#btnEditar" prefHeight="31.0" prefWidth="81.0" text="Editar" />
+      <Button layoutX="332.0" layoutY="231.0" mnemonicParsing="false" onAction="#btnID" prefHeight="31.0" prefWidth="44.0" text="OK" />
+      <TextField fx:id="TextFieldID" layoutX="278.0" layoutY="231.0" prefHeight="31.0" prefWidth="44.0" promptText="00" />
+      <Label layoutX="253.0" layoutY="236.0" text="ID" />
+      <PasswordField fx:id="PasswordFieldSenha" layoutX="66.0" layoutY="142.0" prefHeight="31.0" prefWidth="262.0" promptText="******" />
+   </children>
+</Pane>
